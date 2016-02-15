@@ -1,0 +1,93 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!DOCTYPE html>
+<html>
+<body>
+	<form id="deviceform" class="container form-horizontal">
+		<div class="page-header">
+			<h1>Device Request Form</h1>
+		</div>
+
+		<div class="form-group">
+			<label class="col-md-2 control-label">Full Name</label>
+			<div class="col-md-5">
+				<input type="text" class="form-control" id="fullName" placeholder="Full Name" />
+				<p class="help-block">Please enter Your Full Name</p>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-md-2 control-label">Contact</label>
+			<div class="col-md-2">
+				<input type="text" class="form-control" id="number" placeholder="Contact Number" />
+				<p class="help-block">Enter Phone Number</p>
+			</div>
+			<div class="col-md-3">
+				<input type="email" class="form-control" id="email" placeholder="Email"/>
+				<p class="help-block">Enter Email Address</p>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-md-2 control-label">Check-In & Out Date</label>
+			<div class="col-md-2">
+				<input type="date" class="form-control" id="dateIn" placeholder="Date"/>
+				<p class="help-block">Pick Check In Date</p>
+			</div>
+			<div class="col-md-2">
+				<input type="date" class="form-control" id="dateOut" placeholder="Date"/>
+				<p class="help-block">Pick Check Out Date</p>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-md-2 control-label">Device Usage</label>
+			<div class="col-md-5">
+				<textarea rows="5" class="form-control hresize" id="deviceUsage"></textarea>
+				<p class="help-block">Give Breif Description Of Device Usage</p>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-md-2 control-label">Device Selection</label>
+			<div class="col-md-2">
+				<div class="btn-group">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Scrollable Menu <span class="caret"></span></button>
+					<p class="help-block">Pick Device</p>
+					<ul class="dropdown-menu scrollable-menu" role="menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-6 col-md-offset-1">
+					<button class="btn btn-primary">Request</button>
+
+					<button class="btn btn-primary">Clear</button>
+				</div>
+			</div>
+
+			<!--Link to the js file -->
+			<script src="js/form.js"></script>
+			<link rel="stylesheet" type="D7-F9I/css" href="form.css">
+		</body>
+		</html>
